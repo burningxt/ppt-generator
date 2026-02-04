@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="60" fill="#003366"/>
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">收益量化：解释力 (R²) 的显著增益</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA"/>
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    决定系数 R² 的提升量化了传感器的信息价值：在高敏感层找回了成型机无法捕捉的 7–12% 波动。
+  </text>
+
+  <!-- Left: Insights -->
+  <g transform="translate(60, 160)">
+    <g>
+      <rect width="420" height="130" fill="#E3F2FD" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#1565C0">信息增益量化</text>
+      <text x="20" y="80" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">在高敏感度层，R² 中位数提升约 <tspan font-weight="bold" fill="#D32F2F">7–12%</tspan></tspan>
+        <tspan x="20" dy="1.5em">例如 13_DC：0.799 vs 0.728 (+9.7%)</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 160)">
+      <rect width="420" height="130" fill="#F5F7FA" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#333333">业务含义：消除“黑盒”</text>
+      <text x="20" y="80" font-family="Microsoft YaHei" font-size="15" fill="#666666">
+        <tspan x="20" dy="0">这些“被找回的信息”代表了模腔内真实的物理状态，</tspan>
+        <tspan x="20" dy="1.5em">是实现精密闭环控制、降低报废率的关键冗余度。</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 320)">
+      <rect width="420" height="160" fill="#003366" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#FFFFFF">建议应用场景</text>
+      <text x="20" y="75" font-family="Microsoft YaHei" font-size="15" fill="#FFFFFF" fill-opacity="0.9">
+        <tspan x="20" dy="0">● 闭环补偿调节 (需要最高解释力)</tspan>
+        <tspan x="20" dy="1.4em">● 高精度在线尺寸预测</tspan>
+        <tspan x="20" dy="1.4em">● 精细化产品分档管理</tspan>
+        <tspan x="20" dy="1.4em">● 模腔压力指纹库建立</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Right: Image -->
+  <g transform="translate(520, 160)">
+    <rect width="700" height="480" fill="none" stroke="#DCDFE6" stroke-width="1"/>
+    <image href="../images/R2对比分析_必要性论证.svg" x="20" y="20" width="660" height="440" preserveAspectRatio="xMidYMid meet"/>
+    <text x="350" y="520" font-family="Microsoft YaHei" font-size="14" fill="#999999" text-anchor="middle">Exhibit 4: R² (决定系数) 对比分析 (传感器 vs 射出压)</text>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 7</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="60" fill="#003366"/>
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">相关性现状：大多数稳健与少数关键</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA"/>
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    相关性呈现“关键少数 + 稳健多数”分布，70% 尺寸对压力波动具备天然免疫力。
+  </text>
+
+  <!-- Key Insights - Top Section -->
+  <g transform="translate(60, 160)">
+    <g>
+      <rect width="360" height="120" fill="#003366" fill-opacity="0.05" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#003366">大多数尺寸 (约 70%)</text>
+      <text x="20" y="75" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">|r| &lt; 0.3，表现出极高的工艺稳健性，</tspan>
+        <tspan x="20" dy="1.2em">不受注塑压力正常波动的影响。</tspan>
+      </text>
+    </g>
+    <g transform="translate(400, 0)">
+      <rect width="360" height="120" fill="#0076A8" fill-opacity="0.05" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#0076A8">关键少数尺寸</text>
+      <text x="20" y="75" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">|r| ≥ 0.8，压力是其主导控制因子，</tspan>
+        <tspan x="20" dy="1.2em">是实现闭环调节的核心“可控把手”。</tspan>
+      </text>
+    </g>
+    <g transform="translate(800, 0)">
+      <rect width="360" height="120" fill="#546E7A" fill-opacity="0.05" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#546E7A">合理性评估</text>
+      <text x="20" y="75" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">这种分布说明模具刚性良好，</tspan>
+        <tspan x="20" dy="1.2em">避免了“全盘波动”带来的质量风险。</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Image Section - Bottom Center -->
+  <g transform="translate(340, 320)">
+    <rect width="600" height="340" fill="none" stroke="#DCDFE6" stroke-width="1" stroke-dasharray="4,2"/>
+    <image href="../images/correlation_distribution.svg" x="10" y="10" width="580" height="320" preserveAspectRatio="xMidYMid meet"/>
+    <text x="300" y="365" font-family="Microsoft YaHei" font-size="14" fill="#999999" text-anchor="middle">Exhibit 1: 相关性分布密度图 (基于 197 个尺寸特征)</text>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 4</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="60" fill="#003366"/>
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">落地执行：FIXABLE 与 DANGER 差异化治理方案</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA"/>
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    对 FIXABLE 尺寸：开启 PLC 自动闭环补偿；对 DANGER 尺寸：启动物理源头诊断。
+  </text>
+
+  <!-- Section 1: FIXABLE -->
+  <g transform="translate(60, 160)">
+    <rect width="560" height="480" fill="#E8F5E9" fill-opacity="0.3" rx="8" stroke="#2E7D32" stroke-width="1"/>
+    <text x="20" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#2E7D32">A. 自动控制轨 (针对 FIXABLE 尺寸)</text>
+    
+    <g transform="translate(20, 60)">
+      <rect width="520" height="280" fill="none" stroke="#DCDFE6" stroke-width="1"/>
+      <image href="../images/fixable_typical_dimensions.svg" x="10" y="10" width="500" height="260" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+    
+    <text x="20" y="370" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+      <tspan x="20" dy="0" font-weight="bold">● 决策逻辑：</tspan>
+      <tspan x="20" dy="1.4em">通过调节保压压力直接修正 Cpk。建议增加 46_M_MIC</tspan>
+      <tspan x="20" dy="1.4em">压力，利用强正相关效应将其拉回安全区。</tspan>
+      <tspan x="20" dy="1.6em" font-weight="bold" fill="#2E7D32">预期收益：$C_{pk} \uparrow$ 并维持生产稳定性。</tspan>
+    </text>
+  </g>
+
+  <!-- Section 2: DANGER -->
+  <g transform="translate(660, 160)">
+    <rect width="560" height="480" fill="#FFEBEE" fill-opacity="0.3" rx="8" stroke="#D32F2F" stroke-width="1"/>
+    <text x="20" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#C62828">B. 诊断报警轨 (针对 DANGER 尺寸)</text>
+    
+    <g transform="translate(20, 60)">
+      <rect width="520" height="280" fill="none" stroke="#DCDFE6" stroke-width="1"/>
+      <image href="../images/danger_typical_dimensions.svg" x="10" y="10" width="500" height="260" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+    
+    <text x="20" y="370" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+      <tspan x="20" dy="0" font-weight="bold">● 决策逻辑：</tspan>
+      <tspan x="20" dy="1.4em">“严禁盲目自动调压”。由于 r 极低，调节压力对 174_1</tspan>
+      <tspan x="20" dy="1.4em">等尺寸无效。应立即启动修模、查量测或材料批次。</tspan>
+      <tspan x="20" dy="1.6em" font-weight="bold" fill="#C62828">预期收益：避免无效调机、锁定物理根本原因。</tspan>
+    </text>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 9</text>
+</svg>

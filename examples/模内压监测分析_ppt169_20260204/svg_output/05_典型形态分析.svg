@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="60" fill="#003366"/>
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">实例解析：压力-尺寸关系的四种典型形态</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA"/>
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    实测数据验证了物理逻辑：强正/负相关决定了调节方向，弱相关锁定了控制盲点。
+  </text>
+
+  <!-- Left: Image Area -->
+  <g transform="translate(60, 160)">
+    <rect width="680" height="480" fill="none" stroke="#DCDFE6" stroke-width="1"/>
+    <image href="../images/typical_dimensions_scatter.svg" x="20" y="20" width="640" height="440" preserveAspectRatio="xMidYMid meet"/>
+    <text x="340" y="520" font-family="Microsoft YaHei" font-size="14" fill="#999999" text-anchor="middle">Exhibit 2: 典型尺寸散点分布 (相关性与解释力分析)</text>
+  </g>
+
+  <!-- Right: Insights Area -->
+  <g transform="translate(780, 160)">
+    <g>
+      <rect width="440" height="100" fill="#F8F9FA" rx="4"/>
+      <text x="20" y="35" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#003366">● 强正相关 (13_DC)</text>
+      <text x="20" y="65" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">r ≈ 0.90，解释力达 80%。</tspan>
+        <tspan x="20" dy="1.2em">压力增加 → 尺寸稳步增加。</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 120)">
+      <rect width="440" height="100" fill="#F8F9FA" rx="4"/>
+      <text x="20" y="35" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#0076A8">● 强负相关 (119_3)</text>
+      <text x="20" y="65" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">r ≈ -0.70，代表“调压反向补偿”</tspan>
+        <tspan x="20" dy="1.2em">逻辑，需精准识别调参方向。</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 240)">
+      <rect width="440" height="100" fill="#F8F9FA" rx="4"/>
+      <text x="20" y="35" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#546E7A">● 弱相关 (30_2)</text>
+      <text x="20" y="65" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">r ≈ 0.05，压力调节对此类尺寸</tspan>
+        <tspan x="20" dy="1.2em">完全无效，受模具物理结构主导。</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 360)">
+      <rect width="440" height="100" fill="#E8F5E9" rx="4"/>
+      <text x="20" y="35" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#2E7D32">● 结论洞察</text>
+      <text x="20" y="65" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">并非所有尺寸都需要压力监控；</tspan>
+        <tspan x="20" dy="1.2em">专注于 R² &gt; 0.6 的尺寸可实现最高回报率。</tspan>
+      </text>
+    </g>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 5</text>
+</svg>

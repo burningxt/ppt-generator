@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect width="1280" height="60" fill="#003366" />
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">
+    分析方法论：r, R², Cpk 三维评估模型
+  </text>
+
+  
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA" />
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    通过 r, R², Cpk 三维评估，构建从“监控收益”到“控制决策”的闭环逻辑。
+  </text>
+
+  
+  <g transform="translate(60, 180)">
+    
+    <path fill="#F8F9FA" d="M8,0 H352 A8,8 0 0 1 360,8 V412 A8,8 0 0 1 352,420 H8 A8,8 0 0 1 0,412 V8 A8,8 0 0 1 8,0 Z" />
+    <path fill="#003366" d="M8,0 H352 A8,8 0 0 1 360,8 V52 A8,8 0 0 1 352,60 H8 A8,8 0 0 1 0,52 V8 A8,8 0 0 1 8,0 Z" />
+    <rect x="0" y="30" width="360" height="30" fill="#003366" />
+    <text x="180" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">相关系数 r</text>
+    
+    <text x="20" y="90" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#003366">核心关注：响应性 (Yes/No)</text>
+    <text x="20" y="120" font-family="Microsoft YaHei" font-size="14" fill="#666666">衡量压力信号与尺寸线性关系的强度。</text>
+    
+    <path d="M 20 150 L 340 150" stroke="#DCDFE6" stroke-width="1" />
+    
+    <text x="20" y="180" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#333333">工程决策含义：</text>
+    <text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="20" y="232.5">● 判断尺寸是否“可控”</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="20" y="255">● 确定调节方向（正向/负向）</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="20" y="277.5">● 识别闭环控制的“有效把手”</text><path fill="#F8F9FA" d="M408,0 H752 A8,8 0 0 1 760,8 V412 A8,8 0 0 1 752,420 H408 A8,8 0 0 1 400,412 V8 A8,8 0 0 1 408,0 Z" />
+    <path fill="#0076A8" d="M408,0 H752 A8,8 0 0 1 760,8 V52 A8,8 0 0 1 752,60 H408 A8,8 0 0 1 400,52 V8 A8,8 0 0 1 408,0 Z" />
+    <rect x="400" y="30" width="360" height="30" fill="#0076A8" />
+    <text x="580" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">决定系数 R²</text>
+    
+    <text x="420" y="90" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#0076A8">核心关注：解释力 (How much)</text>
+    <text x="420" y="120" font-family="Microsoft YaHei" font-size="14" fill="#666666">衡量压力能解释多少尺寸波动。</text>
+    
+    <path d="M 420 150 L 740 150" stroke="#DCDFE6" stroke-width="1" />
+    
+    <text x="420" y="180" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#333333">必要性论证含义：</text>
+    <text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="420" y="232.5">● 量化传感器带来的“信息增益”</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="420" y="255">● 对比成型机数据的优劣</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="420" y="277.5">● 评估在线预测模型的准确潜力</text><path fill="#F8F9FA" d="M808,0 H1152 A8,8 0 0 1 1160,8 V412 A8,8 0 0 1 1152,420 H808 A8,8 0 0 1 800,412 V8 A8,8 0 0 1 808,0 Z" />
+    <path fill="#546E7A" d="M808,0 H1152 A8,8 0 0 1 1160,8 V52 A8,8 0 0 1 1152,60 H808 A8,8 0 0 1 800,52 V8 A8,8 0 0 1 808,0 Z" />
+    <rect x="800" y="30" width="360" height="30" fill="#546E7A" />
+    <text x="980" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">过程能力 Cpk</text>
+    
+    <text x="820" y="90" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#455A64">核心关注：安全性 (Status)</text>
+    <text x="820" y="120" font-family="Microsoft YaHei" font-size="14" fill="#666666">衡量当前工艺下尺寸超差的风险。</text>
+    
+    <path d="M 820 150 L 1140 150" stroke="#DCDFE6" stroke-width="1" />
+    
+    <text x="820" y="180" font-family="Microsoft YaHei" font-size="16" font-weight="bold" fill="#333333">风险管理含义：</text>
+    <text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="820" y="232.5">● 识别高风险尺寸（Cpk &lt; 1.33）</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="820" y="255">● 设定治理优先级</text><text fill="#333333" font-family="Microsoft YaHei" font-size="15" x="820" y="277.5">● 结合相关性区分 FIXABLE 与 DANGER</text></g>
+
+  
+  <text x="60" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999">智能制造质量评估体系 | 金字塔结构设计</text>
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 3</text>
+</svg>

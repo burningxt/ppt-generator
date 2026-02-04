@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#005587"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#003366" stroke-width="0.5" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+
+  <!-- Top Accent Line -->
+  <rect width="1280" height="12" fill="url(#headerAccent)"/>
+
+  <!-- Main Content -->
+  <g transform="translate(640, 360)">
+    <!-- Decorative Box -->
+    <rect x="-500" y="-120" width="1000" height="240" fill="#F5F7FA" fill-opacity="0.8" stroke="#003366" stroke-width="2"/>
+    
+    <!-- Title -->
+    <text y="-20" font-family="Microsoft YaHei, Arial" font-size="54" font-weight="bold" fill="#003366" text-anchor="middle">
+      模内压监测与尺寸数据分析结论报告
+    </text>
+    
+    <!-- Subtitle -->
+    <text y="60" font-family="Microsoft YaHei, Arial" font-size="27" fill="#666666" text-anchor="middle">
+      CFG60–CFG64 变压 DOE 数据深度分析与可行性评估
+    </text>
+  </g>
+
+  <!-- Footer Info -->
+  <g transform="translate(640, 640)">
+    <text font-family="Microsoft YaHei, Arial" font-size="18" fill="#333333" text-anchor="middle">
+      2026年2月
+    </text>
+    <rect x="-100" y="20" width="200" height="2" fill="#003366" fill-opacity="0.5"/>
+  </g>
+
+  <!-- Confidential Tag -->
+  <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">STRICTLY CONFIDENTIAL</text>
+</svg>

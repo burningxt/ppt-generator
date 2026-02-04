@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="60" fill="#003366"/>
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">必要性论证：模内压 vs 射出压相关性对比</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA"/>
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    在高敏感度尺寸层（Top 20%），模内压传感器的监测能力全面超越成型机射出压力。
+  </text>
+
+  <!-- Left: Insights -->
+  <g transform="translate(60, 160)">
+    <g>
+      <rect width="400" height="180" fill="#003366" fill-opacity="0.05" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#003366">高敏感度层 (Top 20%)</text>
+      <text x="20" y="80" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">● vs 射出峰压：更强 84.6%</tspan>
+        <tspan x="20" dy="1.8em">● vs 射出VP压：更强 100%</tspan>
+        <tspan x="20" dy="1.8em">● 中位数差：+0.263 (vs VP压)</tspan>
+      </text>
+    </g>
+    <g transform="translate(0, 220)">
+      <rect width="400" height="180" fill="#F8F9FA" rx="4"/>
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="20" font-weight="bold" fill="#666666">整体范围 (197个尺寸)</text>
+      <text x="20" y="80" font-family="Microsoft YaHei" font-size="16" fill="#333333">
+        <tspan x="20" dy="0">● vs 射出峰压：更强 61.7%</tspan>
+        <tspan x="20" dy="1.8em">● vs 射出VP压：更强 76.5%</tspan>
+        <tspan x="20" dy="1.8em">● 中位数提升：约 0.044–0.078</tspan>
+      </text>
+    </g>
+    <rect x="0" y="420" width="400" height="60" fill="#0076A8"/>
+    <text x="200" y="457" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">结论：模内压具有更高监测分辨率</text>
+  </g>
+
+  <!-- Right: Image -->
+  <g transform="translate(500, 160)">
+    <rect width="720" height="480" fill="none" stroke="#DCDFE6" stroke-width="1"/>
+    <image href="../images/相关性对比分析_必要性论证.svg" x="20" y="20" width="680" height="440" preserveAspectRatio="xMidYMid meet"/>
+    <text x="360" y="520" font-family="Microsoft YaHei" font-size="14" fill="#999999" text-anchor="middle">Exhibit 3: 相关性 (|r|) 对比分析分析 (红色为高敏感度层)</text>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 6</text>
+</svg>
