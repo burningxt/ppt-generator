@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect width="1280" height="60" fill="#003366" />
+  <text x="60" y="40" font-family="Microsoft YaHei" font-size="24" font-weight="bold" fill="#FFFFFF">相关性现状：大多数稳健与少数关键</text>
+
+  <rect x="0" y="60" width="1280" height="80" fill="#F5F7FA" />
+  <text x="60" y="110" font-family="Microsoft YaHei" font-size="22" font-weight="bold" fill="#003366">
+    相关性呈现“关键少数 + 稳健多数”分布，70% 尺寸对压力波动具备天然免疫力。
+  </text>
+
+  
+  <g transform="translate(60, 160)">
+    <g>
+      <path fill="#003366" fill-opacity="0.05" d="M4,0 H356 A4,4 0 0 1 360,4 V116 A4,4 0 0 1 356,120 H4 A4,4 0 0 1 0,116 V4 A4,4 0 0 1 4,0 Z" />
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#003366">大多数尺寸 (约 70%)</text>
+      <text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="75">|r| &lt; 0.3，表现出极高的工艺稳健性，</text><text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="76.2">不受注塑压力正常波动的影响。</text></g>
+    <g transform="translate(400, 0)">
+      <path fill="#0076A8" fill-opacity="0.05" d="M4,0 H356 A4,4 0 0 1 360,4 V116 A4,4 0 0 1 356,120 H4 A4,4 0 0 1 0,116 V4 A4,4 0 0 1 4,0 Z" />
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#0076A8">关键少数尺寸</text>
+      <text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="75">|r| ≥ 0.8，压力是其主导控制因子，</text><text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="76.2">是实现闭环调节的核心“可控把手”。</text></g>
+    <g transform="translate(800, 0)">
+      <path fill="#546E7A" fill-opacity="0.05" d="M4,0 H356 A4,4 0 0 1 360,4 V116 A4,4 0 0 1 356,120 H4 A4,4 0 0 1 0,116 V4 A4,4 0 0 1 4,0 Z" />
+      <text x="20" y="40" font-family="Microsoft YaHei" font-size="18" font-weight="bold" fill="#546E7A">合理性评估</text>
+      <text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="75">这种分布说明模具刚性良好，</text><text font-size="16" fill="#333333" font-family="Microsoft YaHei" x="20" y="76.2">避免了“全盘波动”带来的质量风险。</text></g>
+  </g>
+
+  
+  <g transform="translate(340, 320)">
+    <rect width="600" height="340" fill="none" stroke="#DCDFE6" stroke-width="1" stroke-dasharray="4,2" />
+--
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 423.663187  L 712.623437 423.663187  L 712.623437 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+--
+      </defs>
+      <g>
+       <use xlink:href="#m874b83988d" x="45.285938" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      
+      <g transform="translate(37.785938 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-30" d="M 225 2537  Q 250 3200 412 3587  Q 575 3975 875 4225  Q 1175 4475 1612 4475  Q 2050 4475 2375 4112  Q 2700 3750 2800 3200  Q 2900 2650 2862 1937  Q 2825 1225 2612 775  Q 2400 325 1975 150  Q 1550 -25 1125 187  Q 700 400 525 750  Q 350 1100 275 1487  Q 200 1875 225 2537  z M 750 2687  Q 675 2000 800 1462  Q 925 925 1212 700  Q 1500 475 1800 612  Q 2100 750 2237 1162  Q 2375 1575 2375 2062  Q 2375 2550 2337 2950  Q 2300 3350 2112 3675  Q 1925 4000 1612 4012  Q 1300 4025 1062 3700  Q 825 3375 750 2687  z " transform="scale(0.015625)" />
+        <path id="SimHei-2e" d="M 1075 125  L 500 125  L 500 675  L 1075 675  L 1075 125  z " transform="scale(0.015625)" />
+--
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m874b83988d" x="175.813438" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      
+      <g transform="translate(168.313438 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-32" d="M 300 250  Q 325 625 650 925  Q 975 1225 1475 1862  Q 1975 2500 2125 2850  Q 2275 3200 2237 3450  Q 2200 3700 2000 3862  Q 1800 4025 1537 4000  Q 1275 3975 1037 3800  Q 800 3625 675 3275  L 200 3350  Q 400 3925 712 4187  Q 1025 4450 1450 4475  Q 1700 4500 1900 4462  Q 2100 4425 2312 4287  Q 2525 4150 2662 3875  Q 2800 3600 2762 3212  Q 2725 2825 2375 2287  Q 2025 1750 1025 600  L 2825 600  L 2825 150  L 300 150  L 300 250  z " transform="scale(0.015625)" />
+       </defs>
+--
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m874b83988d" x="306.340937" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      
+      <g transform="translate(298.840937 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-34" d="M 2000 1100  L 75 1100  L 75 1525  L 2100 4450  L 2475 4450  L 2475 1525  L 3075 1525  L 3075 1100  L 2475 1100  L 2475 150  L 2000 150  L 2000 1100  z M 2000 1525  L 2000 3500  L 600 1525  L 2000 1525  z " transform="scale(0.015625)" />
+       </defs>
+--
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m874b83988d" x="436.868438" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      
+      <g transform="translate(429.368438 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-36" d="M 250 1612  Q 275 1975 387 2225  Q 500 2475 725 2850  L 1750 4450  L 2325 4450  L 1275 2800  Q 1950 2975 2350 2750  Q 2750 2525 2887 2237  Q 3025 1950 3037 1612  Q 3050 1275 2937 950  Q 2825 625 2537 362  Q 2250 100 1737 75  Q 1225 50 862 262  Q 500 475 362 862  Q 225 1250 250 1612  z M 1025 787  Q 1250 550 1625 525  Q 2000 500 2250 775  Q 2500 1050 2500 1575  Q 2500 2100 2187 2300  Q 1875 2500 1487 2450  Q 1100 2400 925 2075  Q 750 1750 775 1387  Q 800 1025 1025 787  z " transform="scale(0.015625)" />
+       </defs>
+--
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m874b83988d" x="567.395938" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      
+      <g transform="translate(559.895938 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-38" d="M 175 1375  Q 175 1675 325 1962  Q 475 2250 825 2425  Q 525 2600 425 2812  Q 325 3025 312 3300  Q 300 3575 387 3775  Q 475 3975 650 4150  Q 825 4325 1037 4387  Q 1250 4450 1500 4450  Q 1750 4450 1950 4400  Q 2150 4350 2375 4187  Q 2600 4025 2700 3725  Q 2800 3425 2687 3025  Q 2575 2625 2100 2400  Q 2525 2275 2700 2012  Q 2875 1750 2875 1375  Q 2875 1000 2762 775  Q 2650 550 2512 400  Q 2375 250 2137 162  Q 1900 75 1537 75  Q 1175 75 912 162  Q 650 250 475 425  Q 300 600 237 837  Q 175 1075 175 1375  z M 687 1400  Q 675 1100 787 875  Q 900 650 1200 587  Q 1500 525 1825 600  Q 2150 675 2275 950  Q 2400 1225 2362 1500  Q 2325 1775 2050 1962  Q 1775 2150 1450 2125  Q 1125 2100 912 1900  Q 700 1700 687 1400  z M 775 3350  Q 775 3100 950 2875  Q 1125 2650 1500 2650  Q 1875 2650 2062 2875  Q 2250 3100 2237 3412  Q 2225 3725 2012 3875  Q 1800 4025 1437 4000  Q 1075 3975 925 3787  Q 775 3600 775 3350  z " transform="scale(0.015625)" />
+       </defs>
+--
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m874b83988d" x="697.923437" y="384.43975" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      
+      <g transform="translate(690.423437 398.31475) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-31" d="M 1400 3600  Q 1075 3275 575 2975  L 575 3450  Q 1200 3875 1600 4450  L 1900 4450  L 1900 150  L 1400 150  L 1400 3600  z " transform="scale(0.015625)" />
+       </defs>
+--
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-30" transform="translate(100 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_7">
+     
+     <g transform="translate(319.604687 414.736625) scale(0.13 -0.13)">
+      <defs>
+       <path id="SimHei-7edd" d="M 4050 4950  Q 3900 4775 3700 4475  L 5375 4475  Q 4900 3600 4700 3175  L 5750 3175  Q 5725 2775 5725 2375  L 5725 1725  Q 5725 1400 5750 1050  L 5275 1050  L 5275 1350  L 3275 1350  L 3275 250  Q 3275 -175 3775 -175  L 5125 -175  Q 5375 -175 5462 -12  Q 5550 150 5600 475  Q 5850 350 6175 275  Q 6000 -300 5787 -437  Q 5575 -575 5300 -575  L 3600 -575  Q 2825 -575 2825 50  L 2825 2350  Q 2825 2750 2800 3175  L 4175 3175  Q 4500 3775 4625 4075  L 3500 4075  Q 3100 3500 2900 3225  Q 2725 3375 2500 3500  Q 2800 3900 3062 4312  Q 3325 4725 3525 5225  Q 3800 5075 4050 4950  z M 1750 3225  Q 1900 3500 2000 3725  Q 2200 3575 2550 3400  Q 2300 3225 2012 2800  Q 1725 2375 1050 1575  Q 2025 1675 2350 1725  Q 2350 1525 2400 1275  Q 1975 1250 1537 1200  Q 1100 1150 625 1025  Q 500 1350 400 1550  Q 650 1700 975 2050  Q 1300 2400 1550 2825  Q 1150 2825 900 2787  Q 650 2750 475 2675  Q 400 2925 300 3175  Q 525 3325 837 3912  Q 1150 4500 1350 5125  Q 1525 4975 1900 4825  Q 1700 4600 1450 4150  Q 1200 3700 850 3175  Q 1050 3175 1750 3225  z M 2425 625  Q 2400 350 2425 200  Q 2100 125 1487 -12  Q 875 -150 400 -325  Q 350 -25 275 275  Q 950 350 1387 425  Q 1825 500 2425 625  z M 5275 1725  L 5275 2775  L 4475 2775  L 4475 1725  L 5275 1725  z M 4050 1725  L 4050 2775  L 3275 2775  L 3275 1725  L 4050 1725  z " transform="scale(0.015625)" />
+       <path id="SimHei-5bf9" d="M 525 4250  Q 900 4225 1400 4225  L 2825 4225  Q 2575 2625 2200 1750  Q 2825 875 3125 400  Q 2950 275 2725 75  Q 2200 975 1950 1300  Q 1650 775 1350 425  Q 1050 75 600 -350  Q 425 -125 200 -25  Q 625 275 975 675  Q 1325 1075 1650 1700  Q 1050 2425 550 2900  Q 700 3025 900 3225  Q 1625 2425 1875 2150  Q 2200 3050 2300 3825  L 1400 3825  Q 900 3825 525 3800  L 525 4250  z M 2925 3700  Q 3525 3675 3750 3675  L 4825 3675  L 4825 4425  Q 4825 4750 4775 5125  L 5350 5125  Q 5325 4825 5325 4375  L 5325 3675  Q 5575 3675 6150 3700  L 6150 3250  Q 5575 3275 5325 3275  L 5325 125  Q 5350 -350 5012 -475  Q 4675 -600 4250 -650  Q 4175 -350 4025 -100  Q 4575 -100 4712 -37  Q 4850 25 4825 325  L 4825 3275  L 3775 3275  Q 3550 3275 2925 3225  L 2925 3700  z M 3450 2725  Q 3875 1975 4175 1325  Q 3850 1200 3700 1075  Q 3475 1750 3050 2475  Q 3225 2550 3450 2725  z " transform="scale(0.015625)" />
+--
+      </defs>
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="369.191352" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      
+      <g transform="translate(23.285938 372.628852) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-30" transform="translate(100 0)" />
+--
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="330.61841" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      
+      <g transform="translate(23.285938 334.05591) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-32" transform="translate(100 0)" />
+--
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="292.045469" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      
+      <g transform="translate(23.285938 295.482969) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-34" transform="translate(100 0)" />
+--
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="253.472527" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      
+      <g transform="translate(23.285938 256.910027) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-36" transform="translate(100 0)" />
+--
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="214.899585" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      
+      <g transform="translate(23.285938 218.337085) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-38" transform="translate(100 0)" />
+--
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="176.326643" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      
+      <g transform="translate(23.285938 179.764143) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-31" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-30" transform="translate(100 0)" />
+--
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="137.753701" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_14">
+      
+      <g transform="translate(23.285938 141.191201) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-31" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-32" transform="translate(100 0)" />
+--
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="99.180759" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_15">
+      
+      <g transform="translate(23.285938 102.618259) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-31" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-34" transform="translate(100 0)" />
+--
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m30f40f68ca" x="45.285938" y="60.607818" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_16">
+      
+      <g transform="translate(23.285938 64.045318) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-31" />
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)" />
+       <use xlink:href="#SimHei-36" transform="translate(100 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_17">
+     
+     <g transform="translate(17.660938 229.707375) rotate(-90) scale(0.13 -0.13)">
+      <defs>
+       <path id="SimHei-5bc6" d="M 4825 3350  Q 4475 3125 3962 2750  Q 3450 2375 2775 2025  L 4025 2025  Q 4550 2025 4550 2600  Q 4800 2450 5150 2325  Q 4900 1775 4712 1687  Q 4525 1600 4200 1600  L 2875 1600  Q 2225 1575 2175 1675  Q 1125 1325 575 1175  Q 475 1425 250 1675  Q 850 1725 1262 1850  Q 1675 1975 2000 2100  L 2000 2750  Q 2000 3000 1975 3400  L 2550 3400  Q 2525 3025 2525 2775  L 2525 2350  Q 2900 2525 3425 2887  Q 3950 3250 4325 3775  Q 4475 3625 4825 3350  z M 1225 550  Q 1225 825 1200 1125  L 1750 1125  Q 1725 775 1725 525  L 1725 0  L 3075 0  L 3075 700  Q 3075 950 3025 1375  L 3600 1375  Q 3575 1100 3575 675  L 3575 0  L 4975 0  L 4975 625  Q 4975 875 4950 1200  L 5500 1200  Q 5475 900 5475 600  L 5475 -225  Q 5475 -425 5500 -700  L 4975 -700  L 4975 -400  L 1200 -400  Q 1225 -150 1225 75  L 1225 550  z M 5375 3575  L 5375 4150  L 1150 4150  L 1150 3550  L 600 3550  Q 625 3700 625 4000  Q 625 4300 600 4575  L 2975 4575  Q 2900 4800 2775 5050  Q 3000 5125 3325 5225  Q 3425 5075 3575 4575  L 5925 4575  Q 5900 4250 5900 4025  Q 5900 3825 5925 3575  L 5375 3575  z M 1650 3275  Q 1500 2850 1225 2250  Q 900 2350 675 2400  Q 950 2800 1100 3400  Q 1350 3325 1650 3275  z M 5450 3325  Q 5775 2925 6100 2450  Q 5825 2350 5625 2200  Q 5350 2675 5000 3050  Q 5200 3175 5450 3325  z M 3225 3150  Q 2875 3600 2575 3825  Q 2775 3950 2975 4125  Q 3175 3975 3650 3475  Q 3450 3300 3225 3150  z " transform="scale(0.015625)" />
+       <path id="SimHei-5ea6" d="M 1750 1675  Q 2450 1650 2875 1650  L 5200 1650  Q 4975 1250 4650 850  Q 4325 450 4025 200  Q 4350 50 4950 -50  Q 5550 -150 6100 -150  Q 5950 -300 5825 -650  Q 5100 -550 4550 -412  Q 4000 -275 3625 -100  Q 3100 -325 2587 -462  Q 2075 -600 1525 -675  Q 1450 -475 1225 -250  Q 1675 -250 2250 -125  Q 2825 0 3250 200  Q 2825 550 2400 1275  L 1750 1250  L 1750 1675  z M 2975 5075  Q 3250 5150 3475 5250  Q 3625 4975 3775 4525  L 4700 4525  Q 4975 4525 5700 4550  L 5700 4100  Q 5000 4125 4650 4125  L 1375 4125  Q 1375 3000 1350 2312  Q 1325 1625 1212 950  Q 1100 275 725 -525  Q 500 -375 250 -300  Q 650 400 762 1075  Q 875 1750 887 2800  Q 900 3850 875 4525  L 3200 4525  Q 3100 4850 2975 5075  z M 2475 3300  Q 2475 3700 2450 3925  L 2975 3925  Q 2950 3725 2950 3300  L 4300 3300  Q 4300 3700 4275 3950  L 4800 3950  Q 4775 3650 4775 3300  Q 5325 3300 5725 3325  L 5725 2900  Q 5350 2925 4775 2925  Q 4775 2250 4800 1950  L 2450 1950  Q 2475 2350 2475 2925  Q 2175 2925 1600 2900  L 1600 3325  Q 2175 3300 2475 3300  z M 4300 2350  L 4300 2925  L 2950 2925  L 2950 2350  L 4300 2350  z M 2875 1275  Q 3200 775 3650 425  Q 4025 700 4425 1275  L 2900 1275  L 2875 1275  z " transform="scale(0.015625)" />
+--
+    <path d="M 45.285938 384.43975  L 697.923437 384.43975  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_6">
+    <path d="M 45.285938 48.975  L 697.923437 48.975  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_18">
+    <g id="patch_7">
+     <path d="M 469.500312 117.516988  L 662.000312 117.516988  Q 665.300312 117.516988 665.300312 114.216988  L 665.300312 65.834175  Q 665.300312 62.534175 662.000312 62.534175  L 469.500312 62.534175  Q 466.200312 62.534175 466.200312 65.834175  L 466.200312 114.216988  Q 466.200312 117.516988 469.500312 117.516988  z " style="fill: #f5deb3; opacity: 0.8; stroke: #000000; stroke-linejoin: miter" />
+    </g>
+    
+    <g transform="translate(469.500312 74.427925) scale(0.11 -0.11)">
+--
+     <use xlink:href="#SimHei-30" transform="translate(1200 0)" />
+     <use xlink:href="#SimHei-25" transform="translate(1250 0)" />
+     <use xlink:href="#SimHei-29" transform="translate(1300 0)" />
+    </g>
+   </g>
+   <g id="text_19">
+    
+    <g transform="translate(315.604687 18.575) scale(0.14 -0.14)">
+     <defs>
+      <path id="SimHei-6027" d="M 3450 4525  Q 3325 4075 3275 3750  L 4050 3750  L 4050 4275  Q 4050 4700 4025 5100  L 4550 5100  Q 4525 4700 4525 4275  L 4525 3750  L 5025 3750  Q 5350 3750 5800 3775  L 5800 3300  Q 5350 3325 5025 3325  L 4525 3325  L 4525 2000  L 4975 2000  Q 5350 2000 5725 2025  L 5725 1550  Q 5350 1575 4975 1575  L 4525 1575  L 4525 25  L 5200 25  Q 5625 25 6025 50  L 6025 -400  Q 5625 -375 5200 -375  L 3275 -375  Q 2825 -375 2400 -400  L 2400 50  Q 2825 25 3250 25  L 4050 25  L 4050 1575  L 3625 1575  Q 3300 1575 2875 1550  L 2875 2025  Q 3200 2000 3625 2000  L 4050 2000  L 4050 3325  L 3175 3325  Q 3100 2950 2775 2225  Q 2500 2375 2325 2400  Q 2675 3125 2775 3650  Q 2875 4175 2950 4650  Q 3200 4575 3450 4525  z M 1700 5150  Q 1675 4650 1675 4175  L 1675 425  Q 1675 -100 1700 -625  L 1175 -625  Q 1200 -100 1200 425  L 1200 4175  Q 1200 4700 1175 5150  L 1700 5150  z M 975 3725  Q 825 2675 700 2150  Q 450 2200 250 2250  Q 425 2900 525 3800  Q 725 3775 975 3725  z M 2125 4025  Q 2325 3625 2525 3000  Q 2300 2925 2125 2825  Q 1950 3375 1750 3850  Q 1950 3950 2125 4025  z " transform="scale(0.015625)" />
+      <path id="SimHei-5206" d="M 1000 -650  Q 825 -375 575 -225  Q 975 -75 1300 137  Q 1625 350 1875 662  Q 2125 975 2250 1350  Q 2375 1725 2425 2275  Q 1850 2275 1500 2250  L 1500 2775  Q 1900 2750 2525 2750  L 5025 2750  Q 4975 2375 4950 2100  L 4750 250  Q 4700 -200 4350 -350  Q 4000 -500 3575 -525  Q 3550 -275 3325 50  Q 3850 25 4037 87  Q 4225 150 4275 525  L 4450 2275  L 2950 2275  Q 2875 1625 2737 1187  Q 2600 750 2350 425  Q 2100 100 1750 -175  Q 1400 -450 1000 -650  z M 3950 5175  Q 4125 4650 4662 3975  Q 5200 3300 6175 2800  Q 5975 2625 5775 2275  Q 5325 2600 4987 2887  Q 4650 3175 4425 3425  Q 4200 3675 3925 4137  Q 3650 4600 3475 5000  Q 3750 5075 3950 5175  z M 2700 4825  Q 2475 4425 2325 4125  Q 2175 3825 2025 3587  Q 1875 3350 1575 2950  Q 1275 2550 850 2125  Q 625 2350 400 2475  Q 900 2925 1187 3300  Q 1475 3675 1737 4112  Q 2000 4550 2200 5075  Q 2400 4925 2700 4825  z " transform="scale(0.015625)" />
+--
+     <path d="M 52.285938 158.771875  L 199.285937 158.771875  Q 201.285937 158.771875 201.285937 156.771875  L 201.285937 55.975  Q 201.285937 53.975 199.285937 53.975  L 52.285938 53.975  Q 50.285938 53.975 50.285938 55.975  L 50.285938 156.771875  Q 50.285938 158.771875 52.285938 158.771875  z " style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter" />
+    </g>
+    <g id="patch_9">
+     <path d="M 54.285938 66.1  L 74.285938 66.1  L 74.285938 59.1  L 54.285938 59.1  z " style="fill: #4682b4; fill-opacity: 0.3; stroke: #4682b4; stroke-opacity: 0.3; stroke-linejoin: miter" />
+    </g>
+    <g id="text_20">
+     
+     <g transform="translate(82.285938 66.1) scale(0.1 -0.1)">
+      <use xlink:href="#SimHei-76f8" />
+      <use xlink:href="#SimHei-5173" transform="translate(100 0)" />
+      <use xlink:href="#SimHei-6027" transform="translate(200 0)" />
+--
+     </g>
+    </g>
+    <g id="line2d_36">
+     <path d="M 54.285938 76.975  L 64.285938 76.975  L 74.285938 76.975  " style="fill: none; stroke: #0000ff; stroke-width: 2.5; stroke-linecap: square" />
+    </g>
+    <g id="text_21">
+     
+     <g transform="translate(82.285938 80.475) scale(0.1 -0.1)">
+      <defs>
+       <path id="SimHei-66f2" d="M 5825 500  Q 5825 -200 5850 -550  L 5275 -550  L 5275 -50  L 1150 -50  L 1150 -550  L 575 -550  Q 600 125 600 550  L 600 2775  Q 600 3425 575 3900  L 2150 3900  L 2150 4450  Q 2125 4850 2125 5150  L 2700 5150  Q 2650 4825 2650 4475  L 2650 3900  L 3700 3900  L 3700 4525  Q 3700 4850 3675 5175  L 4250 5175  Q 4225 4875 4225 4550  L 4225 3900  L 5850 3900  Q 5825 3525 5825 2750  L 5825 500  z M 3700 325  L 3700 1875  L 2650 1875  L 2650 325  L 3700 325  z M 5275 325  L 5275 1875  L 4225 1875  L 4225 325  L 5275 325  z M 2150 325  L 2150 1875  L 1150 1875  L 1150 325  L 2150 325  z M 3700 2250  L 3700 3525  L 2650 3525  L 2650 2250  L 3700 2250  z M 5275 2250  L 5275 3525  L 4225 3525  L 4225 2250  L 5275 2250  z M 2150 2250  L 2150 3525  L 1150 3525  L 1150 2250  L 2150 2250  z " transform="scale(0.015625)" />
+       <path id="SimHei-7ebf" d="M 3450 4300  Q 3450 4675 3375 5125  Q 3700 5100 4050 5050  Q 3975 4900 3950 4562  Q 3925 4225 3950 3600  L 4800 3750  Q 5225 3850 5650 3975  L 5750 3500  Q 5325 3450 4875 3375  L 3975 3200  Q 3975 2800 4025 2500  L 5000 2675  Q 5500 2775 5950 2925  L 6025 2450  Q 5575 2375 5075 2275  L 4100 2100  Q 4150 1600 4350 1175  Q 4575 1350 4787 1575  Q 5000 1800 5175 2075  Q 5550 1775 5750 1675  Q 5425 1525 5237 1337  Q 5050 1150 4625 750  Q 4925 250 5162 112  Q 5400 -25 5500 100  Q 5600 225 5675 625  Q 5900 450 6200 350  Q 5775 -750 5275 -537  Q 4775 -325 4225 450  Q 3875 175 3537 -62  Q 3200 -300 2700 -550  Q 2575 -300 2325 -100  Q 2825 75 3175 275  Q 3525 475 3975 850  Q 3750 1350 3650 2025  Q 2900 1900 2600 1800  L 2525 2275  Q 2825 2275 3550 2425  Q 3500 2825 3500 3100  Q 2825 2950 2575 2875  L 2475 3350  Q 2725 3350 3450 3500  L 3450 4300  z M 1950 4875  Q 1700 4650 1462 4237  Q 1225 3825 825 3225  Q 1425 3250 1650 3250  Q 1875 3625 2050 4075  Q 2300 3900 2600 3800  Q 2350 3550 2087 3125  Q 1825 2700 1175 1675  Q 1850 1725 2375 1775  Q 2300 1525 2300 1350  Q 2125 1350 1525 1287  Q 925 1225 550 1125  Q 525 1375 400 1650  Q 700 1725 950 2050  Q 1200 2375 1475 2875  Q 650 2825 425 2675  Q 350 2950 200 3225  Q 525 3450 825 3962  Q 1125 4475 1375 5150  Q 1625 4975 1950 4875  z M 2575 875  Q 2550 600 2575 450  Q 1950 325 1450 200  Q 950 75 525 -75  Q 450 200 250 475  Q 950 550 1325 612  Q 1700 675 2575 875  z M 4850 4025  Q 4675 4300 4375 4675  L 4775 4875  Q 4875 4750 5275 4275  Q 5025 4175 4850 4025  z " transform="scale(0.015625)" />
+--
+     </g>
+    </g>
+    <g id="patch_10">
+     <path d="M 54.285938 95.31875  L 74.285938 95.31875  L 74.285938 88.31875  L 54.285938 88.31875  z " style="fill: #d3d3d3; fill-opacity: 0.2; stroke: #d3d3d3; stroke-opacity: 0.2; stroke-linejoin: miter" />
+    </g>
+    <g id="text_22">
+     
+     <g transform="translate(82.285938 95.31875) scale(0.1 -0.1)">
+      <use xlink:href="#SimHei-5f31" />
+      <use xlink:href="#SimHei-76f8" transform="translate(100 0)" />
+      <use xlink:href="#SimHei-5173" transform="translate(200 0)" />
+--
+     </g>
+    </g>
+    <g id="patch_11">
+     <path d="M 54.285938 110.240625  L 74.285938 110.240625  L 74.285938 103.240625  L 54.285938 103.240625  z " style="fill: #ffa500; fill-opacity: 0.2; stroke: #ffa500; stroke-opacity: 0.2; stroke-linejoin: miter" />
+    </g>
+    <g id="text_23">
+     
+     <g transform="translate(82.285938 110.240625) scale(0.1 -0.1)">
+      <use xlink:href="#SimHei-4e2d" />
+      <use xlink:href="#SimHei-7b49" transform="translate(100 0)" />
+      <use xlink:href="#SimHei-76f8" transform="translate(200 0)" />
+--
+     </g>
+    </g>
+    <g id="patch_12">
+     <path d="M 54.285938 125.1625  L 74.285938 125.1625  L 74.285938 118.1625  L 54.285938 118.1625  z " style="fill: #ff0000; fill-opacity: 0.2; stroke: #ff0000; stroke-opacity: 0.2; stroke-linejoin: miter" />
+    </g>
+    <g id="text_24">
+     
+     <g transform="translate(82.285938 125.1625) scale(0.1 -0.1)">
+      <use xlink:href="#SimHei-5f3a" />
+      <use xlink:href="#SimHei-76f8" transform="translate(100 0)" />
+      <use xlink:href="#SimHei-5173" transform="translate(200 0)" />
+--
+     </g>
+    </g>
+    <g id="line2d_37">
+     <path d="M 54.285938 135.88125  L 64.285938 135.88125  L 74.285938 135.88125  " style="fill: none; stroke-dasharray: 9.25,4; stroke-dashoffset: 0; stroke: #008000; stroke-width: 2.5" />
+    </g>
+    <g id="text_25">
+     
+     <g transform="translate(82.285938 139.38125) scale(0.1 -0.1)">
+      <defs>
+       <path id="SimHei-4f4d" d="M 2125 4925  Q 1950 4750 1625 3750  L 1625 575  Q 1625 -225 1650 -650  L 1100 -650  Q 1150 -200 1150 550  L 1150 2950  Q 775 2275 550 1950  Q 375 2275 200 2425  Q 525 2775 912 3575  Q 1300 4375 1500 5200  Q 1825 5000 2125 4925  z M 5375 3025  Q 5275 2875 5100 2250  Q 4925 1625 4600 300  L 5450 300  Q 5925 300 6100 325  L 6100 -175  Q 5875 -150 5450 -150  L 2900 -150  Q 2275 -150 2050 -175  L 2050 325  Q 2275 300 2850 300  L 4075 300  Q 4400 1400 4700 3175  Q 5100 3075 5375 3025  z M 5250 4025  Q 5700 4025 5925 4050  L 5925 3575  Q 5700 3600 5225 3600  L 3000 3600  Q 2650 3600 2275 3575  L 2275 4050  Q 2675 4025 3000 4025  L 5250 4025  z M 3050 3050  Q 3500 1775 3750 725  Q 3450 625 3250 550  Q 3125 1125 2962 1675  Q 2800 2225 2550 2875  Q 2800 2925 3050 3050  z M 3875 5200  Q 4175 4675 4400 4300  Q 4200 4250 3875 4075  Q 3700 4525 3400 4950  Q 3650 5050 3875 5200  z " transform="scale(0.015625)" />
+      </defs>
+--
+     </g>
+    </g>
+    <g id="line2d_38">
+     <path d="M 54.285938 150.021875  L 64.285938 150.021875  L 74.285938 150.021875  " style="fill: none; stroke-dasharray: 9.25,4; stroke-dashoffset: 0; stroke: #800080; stroke-width: 2.5" />
+    </g>
+    <g id="text_26">
+     
+     <g transform="translate(82.285938 153.521875) scale(0.1 -0.1)">
+      <defs>
+       <path id="SimHei-37" d="M 850 150  Q 1300 2050 2425 3925  L 275 3925  L 275 4375  L 2950 4375  L 2950 3950  Q 1775 2050 1400 150  L 850 150  z " transform="scale(0.015625)" />
+      </defs>
+--
+ <defs>
+  <clipPath id="pb9f0f61fd9">
+   <rect x="45.285938" y="48.975" width="652.6375" height="335.46475" />
+  </clipPath>
+ </defs>
+</g><text x="300" y="365" font-family="Microsoft YaHei" font-size="14" fill="#999999" text-anchor="middle">Exhibit 1: 相关性分布密度图 (基于 197 个尺寸特征)</text>
+  </g>
+
+  <text x="1220" y="690" font-family="Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">Page 4</text>
+</svg>

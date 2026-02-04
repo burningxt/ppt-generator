@@ -43,19 +43,25 @@ TEXT_STYLE_ATTRS = {
 }
 
 
-num_re = re.compile(r"^[\s,]*([+-]?(?:\d+\.?\d*|\d*\.\d+))")
+num_re = re.compile(r"^[\s,]*([+-]?(?:\d+\.?\d*|\d*\.\d+))([a-z%]*)")
 
 
-def parse_first_number(val: str):
+def parse_value_with_unit(val):
+    """解析数值和单位，返回 (value, unit)"""
     if val is None:
-        return None
-    m = num_re.match(val)
+        return None, None
+    m = num_re.match(str(val))
     if not m:
-        return None
+        return None, None
     try:
-        return float(m.group(1))
+        return float(m.group(1)), m.group(2).lower()
     except ValueError:
-        return None
+        return None, None
+
+
+def parse_first_number(val):
+    v, _ = parse_value_with_unit(val)
+    return v
 
 
 def format_number(n: float) -> str:
@@ -99,11 +105,46 @@ def get_attr(elem, name, default=None):
     return elem.get(name) if elem is not None and name in elem.attrib else default
 
 
+def get_font_size(elem, parent_text=None) -> float:
+    """尝试从元素或父 text 元素中获取 font-size"""
+    # 默认值
+    default_fs = 16.0
+
+    # 1. 检查元素的 font-size 属性
+    fs_attr = elem.get("font-size")
+    if fs_attr:
+        v, u = parse_value_with_unit(fs_attr)
+        if v is not None:
+            if u == "pt":
+                return v * 1.333
+            return v
+
+    # 2. 检查 style 字符串
+    style_str = elem.get("style")
+    if style_str:
+        style = parse_style(style_str)
+        if "font-size" in style:
+            v, u = parse_value_with_unit(style["font-size"])
+            if v is not None:
+                if u == "pt":
+                    return v * 1.333
+                return v
+
+    # 3. 如果是 tspan，检查父 text
+    if parent_text is not None and elem.tag.endswith("tspan"):
+        return get_font_size(parent_text)
+
+    return default_fs
+
+
 def compute_line_positions(text_el, tspan_el, cur_x, cur_y):
     """
     Compute absolute x,y for a tspan based on parent <text> current baseline and tspan's x/y/dx/dy.
     Returns (new_x, new_y).
     """
+    # 获取当前字号用于单位转换
+    font_size = get_font_size(tspan_el, text_el)
+
     # Prefer explicit x/y on tspan
     t_x_attr = get_attr(tspan_el, "x")
     t_y_attr = get_attr(tspan_el, "y")
@@ -113,16 +154,25 @@ def compute_line_positions(text_el, tspan_el, cur_x, cur_y):
     if t_x_attr is not None:
         nx = parse_first_number(t_x_attr)
     elif t_dx_attr is not None:
-        dx = parse_first_number(t_dx_attr) or 0.0
-        nx = (cur_x or 0.0) + dx
+        v, u = parse_value_with_unit(t_dx_attr)
+        if v is not None:
+            dx = v * font_size if u == "em" else v
+            nx = (cur_x or 0.0) + dx
+        else:
+            nx = cur_x
     else:
         nx = cur_x
 
     if t_y_attr is not None:
         ny = parse_first_number(t_y_attr)
     elif t_dy_attr is not None:
-        dy = parse_first_number(t_dy_attr) or 0.0
-        ny = (cur_y or 0.0) + dy
+        v, u = parse_value_with_unit(t_dy_attr)
+        if v is not None:
+            # 处理 em 单位，这是最常见的换行方式
+            dy = v * font_size if u == "em" else v
+            ny = (cur_y or 0.0) + dy
+        else:
+            ny = cur_y
     else:
         ny = cur_y
 
@@ -151,13 +201,19 @@ def copy_text_attrs(src_el, dst_el, exclude=None):
             dst_el.set(k, v)
     # xml:space preservation
     xml_space = src_el.get("{http://www.w3.org/XML/1998/namespace}space")
-    if xml_space is not None and "{http://www.w3.org/XML/1998/namespace}space" not in exclude:
+    if (
+        xml_space is not None
+        and "{http://www.w3.org/XML/1998/namespace}space" not in exclude
+    ):
         dst_el.set("{http://www.w3.org/XML/1998/namespace}space", xml_space)
 
 
 def flatten_text_with_tspans(tree: ET.ElementTree) -> bool:
     root = tree.getroot()
+    if root is None:
+        return False
     parent_map = {c: p for p in root.iter() for c in p}
+
     changed = False
 
     def is_svg_tag(el, name):
@@ -200,7 +256,7 @@ def flatten_text_with_tspans(tree: ET.ElementTree) -> bool:
             if is_new_line_tspan(child):
                 needs_flatten = True
                 break
-        
+
         # 如果没有任何 tspan 需要换行，跳过整个 text 元素
         if not needs_flatten:
             continue
@@ -210,11 +266,11 @@ def flatten_text_with_tspans(tree: ET.ElementTree) -> bool:
         cur_x, cur_y = base_x, base_y
 
         new_texts = []
-        
+
         # 用于收集同一行的 tspan 元素
         current_line_tspans = []
         current_line_lead_text = None
-        
+
         # Leading text directly under <text>
         lead_text = (text_el.text or "").strip()
         if lead_text:
@@ -225,26 +281,30 @@ def flatten_text_with_tspans(tree: ET.ElementTree) -> bool:
                 continue
 
             content = collect_text_content(child)
-            
+
             # 检查这个 tspan 是否开始了新行
             if is_new_line_tspan(child):
                 # 先保存之前积累的同一行 tspans
                 if current_line_tspans or current_line_lead_text:
                     ne = _create_text_element_from_line(
-                        text_el, current_line_lead_text, current_line_tspans, cur_x, cur_y
+                        text_el,
+                        current_line_lead_text,
+                        current_line_tspans,
+                        cur_x,
+                        cur_y,
                     )
                     new_texts.append(ne)
                     current_line_tspans = []
                     current_line_lead_text = None
-                
+
                 # 更新位置
                 nx, ny = compute_line_positions(text_el, child, cur_x, cur_y)
                 cur_x, cur_y = nx, ny
-            
+
             # 如果内容不为空，添加到当前行
             if content.strip():
                 current_line_tspans.append(child)
-        
+
         # 处理最后一行
         if current_line_tspans or current_line_lead_text:
             ne = _create_text_element_from_line(
@@ -280,67 +340,67 @@ def _create_text_element_from_line(text_el, lead_text, tspans, x, y):
     如果有多个 tspan 或前导文本，保留 tspan 结构。
     """
     ne = ET.Element(f"{{{SVG_NS}}}text")
-    
+
     # Copy attrs from parent <text>
     copy_text_attrs(text_el, ne, exclude={"x", "y"})
     ne.set("x", format_number(x))
     ne.set("y", format_number(y))
-    
+
     # Transform
     p_tf = text_el.get("transform")
     if p_tf:
         ne.set("transform", p_tf)
-    
+
     # 如果只有一个 tspan 且没有前导文本，创建简单的 text
     if not lead_text and len(tspans) == 1:
         tspan = tspans[0]
         content = collect_text_content(tspan)
-        
+
         # Merge style
         merged_style = merge_styles(text_el.get("style"), tspan.get("style"))
         if merged_style:
             ne.set("style", merged_style)
-        
+
         # Override specific attributes from tspan
         for attr in TEXT_STYLE_ATTRS:
             cv = tspan.get(attr)
             if cv is not None:
                 ne.set(attr, cv)
-        
+
         # Combine transform
         c_tf = tspan.get("transform")
         if p_tf and c_tf:
             ne.set("transform", f"{p_tf} {c_tf}")
         elif c_tf:
             ne.set("transform", c_tf)
-        
+
         ne.text = content
     else:
         # 保留 tspan 结构
         if lead_text:
             ne.text = lead_text
-        
+
         for tspan in tspans:
             # 创建新的 tspan，但移除位置相关属性
             new_tspan = ET.SubElement(ne, f"{{{SVG_NS}}}tspan")
-            
+
             # 复制样式属性
             for attr in TEXT_STYLE_ATTRS:
                 cv = tspan.get(attr)
                 if cv is not None:
                     new_tspan.set(attr, cv)
-            
+
             # 复制 style
             if tspan.get("style"):
                 new_tspan.set("style", tspan.get("style"))
-            
+
             # 复制文本内容
             new_tspan.text = collect_text_content(tspan)
-            
+
             # 复制 tail（tspan 后面的文本）
             if tspan.tail:
                 new_tspan.tail = tspan.tail
-    
+
     return ne
 
 
@@ -425,7 +485,9 @@ def main():
     if args.interactive or not args.input:
         inp, out_base = _interactive_get_paths()
         if not inp:
-            print("已取消。用法: python tools/flatten_tspan.py <input_dir_or_svg> [output_dir]")
+            print(
+                "已取消。用法: python tools/flatten_tspan.py <input_dir_or_svg> [output_dir]"
+            )
             sys.exit(0)
     else:
         inp = args.input
@@ -441,13 +503,21 @@ def main():
         out_base_abs = os.path.abspath(out_base)
         for root, dirs, files in os.walk(inp):
             # Avoid recursing into the output directory when it lives under input
-            dirs[:] = [d for d in dirs if os.path.abspath(os.path.join(root, d)) != out_base_abs]
+            dirs[:] = [
+                d
+                for d in dirs
+                if os.path.abspath(os.path.join(root, d)) != out_base_abs
+            ]
             rel_root = os.path.relpath(root, inp)
             for f in files:
                 if not f.lower().endswith(".svg"):
                     continue
                 src = os.path.join(root, f)
-                dst = os.path.join(out_base, rel_root, f) if rel_root != "." else os.path.join(out_base, f)
+                dst = (
+                    os.path.join(out_base, rel_root, f)
+                    if rel_root != "."
+                    else os.path.join(out_base, f)
+                )
                 total += 1
                 changed = process_svg_file(src, dst)
                 if changed:
